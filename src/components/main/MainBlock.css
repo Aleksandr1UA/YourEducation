@@ -1,0 +1,3 @@
+.bg-purple {
+    background-color: rgba(var(--bs-purple-rgb), var(--bs-bg-opacity)) !important;
+}

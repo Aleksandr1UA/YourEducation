@@ -1,0 +1,7 @@
+.btn-show {
+    display: none;
+}
+
+.item-show:hover .btn-show {
+    display: block;
+}

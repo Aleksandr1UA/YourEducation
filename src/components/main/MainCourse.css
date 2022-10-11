@@ -1,0 +1,11 @@
+.nav-pills-bg {
+    background-color: rgba(6, 106, 201, 0.1);
+    padding: .625rem;
+    border-radius: .625rem;
+}
+
+.handindex {
+    margin: 0 .2rem 0.2rem .2rem;
+    font-size: 1rem;
+    transform: rotate(90deg);
+}
