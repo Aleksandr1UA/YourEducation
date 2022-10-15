@@ -93,7 +93,7 @@ function WebDesign() {
             img: './images/javascript_full.jpeg',
             alt: 'javascript full',
             level: 'All level',
-            courseName: 'JavaScript: Full Understanding',
+            courseName: 'JavaScript Full Understanding',
             descriction: 'Far advanced settings say finished raillery. Offered chiefly',
             rate: 5,
             time: '35h 20m',

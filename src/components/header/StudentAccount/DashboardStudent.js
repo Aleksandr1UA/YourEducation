@@ -1,8 +1,7 @@
 import '../../../scss/custom.scss';
 import './DashboardStudent.css';
-import { Badge, Button, Card, Col, Form, Nav, Pagination, Row } from "react-bootstrap";
-import { ArrowDown, ArrowUp, Clipboard2CheckFill, Gem, MortarboardFill, Search, Tv} from 'react-bootstrap-icons';
-import { Link, useOutletContext } from 'react-router-dom';
+import { Card, Col, Nav, Pagination, Row } from "react-bootstrap";
+import { Clipboard2CheckFill, Tv} from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMedal } from '@fortawesome/free-solid-svg-icons';
@@ -35,7 +34,7 @@ function DashboardStudent({coursesList}) {
             clearTimeout(id);
         }
         
-    }, [countCurses]);
+    }, [topCount.countCurses, countCurses]);
 
     useEffect(() => {
         const num = topCount.countLessons;
@@ -53,7 +52,7 @@ function DashboardStudent({coursesList}) {
             clearTimeout(id);
         }
         
-    }, [countLessons]);
+    }, [topCount.countLessons, countLessons]);
 
     useEffect(() => {
         const num = topCount.countCertificates;
@@ -71,7 +70,7 @@ function DashboardStudent({coursesList}) {
             clearTimeout(id);
         }
         
-    }, [countCertificates]);
+    }, [topCount.countCertificates, countCertificates]);
 
     return <>
         <Row className={'g-4'}>

@@ -9,7 +9,7 @@ import SingleSlider from './SingleSlider';
 SwiperCore.use([Virtual, Navigation]);
 
 function MainSlider() {
-    const [swiperRef, setSwiperRef] = useState(null);
+    const [setSwiperRef] = useState(null);
     const [slides, setSlides] = useState([]);
         //Array.from({ length: 15 }).map((_, index) => `Slide ${index + 1}`));
 

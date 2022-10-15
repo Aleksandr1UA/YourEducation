@@ -34,7 +34,7 @@ function DashboardInstructor() {
             clearTimeout(id);
         }
         
-    }, [countCurses]);
+    }, [topCount.countCurses, countCurses]);
 
     useEffect(() => {
         const num = topCount.countStudents;
@@ -52,7 +52,7 @@ function DashboardInstructor() {
             clearTimeout(id);
         }
         
-    }, [countStudents]);
+    }, [topCount.countStudents, countStudents]);
 
     useEffect(() => {
         const num = topCount.countEnrStdents;
@@ -70,7 +70,7 @@ function DashboardInstructor() {
             clearTimeout(id);
         }
         
-    }, [countEnrStdents]);
+    }, [topCount.countEnrStdents, countEnrStdents]);
 
     return <>
         <Row className={'g-4'}>
