@@ -1,7 +1,6 @@
 {
   "name": "education",
   "version": "0.1.0",
-  "homepage": "https://aleksandr1ua.github.io/your-education",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",

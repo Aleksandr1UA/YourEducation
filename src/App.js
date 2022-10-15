@@ -36,8 +36,7 @@ function App() {
   const [theme, setTheme] = useState('bg-light text-dark');
   const [profileData, setDataProfile] = useState({email: '', password: '', select: ''});
 
-  return <>
-  <div className={theme}>
+  return <div className={theme}>
     <ProfileContext.Provider value={{profileData, setDataProfile}}>
       <ThemeContext.Provider value={{theme, setTheme}}>
         <Header />
@@ -76,8 +75,6 @@ function App() {
       </ThemeContext.Provider>
     </ProfileContext.Provider>
   </div>
-
-  </>
 }
 
 export default App;
